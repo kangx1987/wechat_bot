@@ -1,0 +1,13 @@
+# 以下是机器人配置，配置后的保存名称为为config.json千寻框架的事件通知地址写http://(python服务器ip地址):5000
+robot_config:
+  host: "192.168.0.130"                    # 安装千寻框架机器的ip
+  port: 7777                              # 与千寻框架http端口保持一致
+  bot_wxid: "wxid_ihqgiftetgjk22"          # 从千寻框架获取已登录的机器人微信号
+  callback_port: 5000                      # 回调端口，用于接收千寻框架的事件通知,千寻框架的事件通知地址写http://(python服务器ip地址):5000
+wxid_list:
+  - "kangx1987"                     # 机器人需要监控的微信号
+  - "wxid_25yvtec89tml22"
+  - "another_wxid"
+qianfan_ak: "lIXfQ*************zMD6"  # 来自百度云控制台-千帆大模型平台-应用接入中的api_key
+qianfan_sk: "9L*************6bGy"  # 来自百度云控制台-千帆大模型平台-应用接入中的secret_key
+message_api_url: "http://192.168.0.130:7619/DaenWxHook/client/"  # 安装千寻框架机器的ip，端口为千寻软件微信管理处对应的port
